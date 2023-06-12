@@ -1,0 +1,72 @@
+@import "../../../../boilerplates/styles/variables";
+
+.ribbon {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+	transition: $transition-image;
+}
+.ribbon.ribbon-top-right.orange {
+	span {
+		background: $orange-color;
+	}
+}
+.ribbon.ribbon-top-right.red {
+	span {
+		background: $red-color;
+	}
+}
+.ribbon::before,
+.ribbon::after {
+	position: absolute;
+	z-index: -1;
+	content: "";
+	display: block;
+	border: 3px solid transparent;
+}
+
+.ribbon span {
+	text-align: center;
+	font-family: $base-font;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 12px;
+	color: $secondary-color;
+	text-transform: uppercase;
+	position: absolute;
+	display: block;
+	width: 165px;
+	padding: 5px 0;
+	box-shadow: 0 5px 10px $shadowed-black-color;
+	z-index: 4;
+}
+
+.ribbon-top-right {
+	top: -3px;
+	right: -3px;
+	transition: $transition-image;
+}
+.ribbon-top-right {
+	top: -3px;
+	right: -3px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+	border-top-color: transparent;
+	border-right-color: transparent;
+}
+.ribbon-top-right.red::before {
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.ribbon-top-right::after {
+	bottom: 0;
+	right: 0;
+}
+.ribbon-top-right span {
+	left: -22px;
+	top: 30px;
+	transform: rotate(45deg);
+}

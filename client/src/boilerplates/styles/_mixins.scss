@@ -1,0 +1,78 @@
+@mixin hover-white {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+@mixin background-img {
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	background-attachment: inherit;
+}
+
+@function calcFluidFontSize($f-min, $f-max, $v-min, $v-max) {
+	$k: calc(($f-max - $f-min) / ($v-max - $v-min));
+	$b: $f-min - $k * $v-min;
+	$b: $b * 1px;
+	$val: calc(#{$k} * 100vw + #{$b});
+	@return $val;
+}
+
+// @include indentation(padding, (10, 20), (15, 30), 0, (20, 45));
+//@include indentation(padding, 0, (10, 50), !important);
+//@include indentation(margin, (10, 20), (10, 20), 0, 0);
+
+//@mixin indentation($props, $sizes...) {
+//	$list: null;
+//	$val: null;
+//	@for $i from 1 through length($sizes) {
+//		$v-max: null;
+//		$v-min: null;
+//		$item: nth($sizes, $i);
+//		@for $e from 1 through length($item) {
+//			@if (nth($item, 1)) == "!important" {
+//				$elem: !important;
+//				$list: append($list, !important, space);
+//				$val: append($val, !important, space);
+//			}
+//			@if (nth($item, 1)) ==0 {
+//				$elem: 0;
+//				$list: append($list, 0, space);
+//				$val: append($val, 0, space);
+//			} @else {
+//				@if $e==2 {
+//					$v-min: nth($item, 1);
+//					$v-max: nth($item, $e);
+//					$elem: calcFluidFontSize($v-min, $v-max, 800, 2500);
+//					$list: append($list, $elem, space);
+//					$val: append($val, nth($item, $e) + px, space);
+//				}
+//			}
+//		}
+//	}
+//	#{$props}: $list;
+//
+//	/*  @media (max-width: 800px) {
+//      #{$props}: $val;
+//    }*/
+//}
+//
+////   @include propsSize(height, 28, 38);
+//// height will be with 28 and 38 px in resized different width between 800, 2500 px
+//// @include propsSize(max-height, 38, 40, !important);
+//
+//@mixin propsSize($prop, $v-min, $v-max, $bool: null) {
+//	#{$prop}: calcFluidFontSize($v-min, $v-max, 800, 2500) $bool;
+//
+//	@media (max-width: 800px) {
+//		#{$prop}: $v-min * 1px !important;
+//	}
+//	@media (min-width: 2501px) {
+//		#{$prop}: $v-max + px !important;
+//	}
+//}

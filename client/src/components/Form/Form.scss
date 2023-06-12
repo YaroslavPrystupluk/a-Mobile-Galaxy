@@ -1,0 +1,60 @@
+@import "src/boilerplates/styles/variables";
+.form {
+	background-color: #ffffff;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 30px;
+	color: $dark-black-color;
+	.form__title {
+		font-family: Open Sans, sans-serif;
+		color: $grey-color;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 40px;
+		text-align: center;
+		position: relative;
+		margin: 10px 0 17px 0;
+		.login,
+		.register {
+			padding: 15px;
+			border-bottom: 3px solid $grey-color;
+		}
+		.login.active,
+		.register.active {
+			color: $base-color;
+			border-bottom: 6px solid $base-color;
+		}
+	}
+	.login__legend {
+		font-family: Open Sans, sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		text-align: start;
+	}
+	.inputs__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		max-width: 100%;
+	}
+}
+.submit__btn {
+	padding: 15px 45px;
+	background: $base-color;
+	border-radius: 3px;
+	color: $secondary-color;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+	&:hover {
+		background-color: darken($base-color, 7%);
+	}
+}
+.submit__btn__container {
+	text-align: center;
+}

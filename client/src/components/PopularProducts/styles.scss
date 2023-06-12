@@ -1,0 +1,75 @@
+@import "../../boilerplates/styles/variables";
+
+.productsSwiper {
+	max-height: 700px;
+	padding: 35px;
+	@media screen and (max-width: 400px) {
+		padding: 35px 0;
+	}
+}
+
+.popularProducts-swiperSlide {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	width: auto;
+	display: flex;
+	max-height: 700px;
+}
+
+.productsSwiper .swiper-button-disabled {
+	display: none;
+}
+
+.productsSwiper .swiper-button-prev {
+	width: 40px;
+	height: 40px;
+	left: 0;
+	@media screen and (max-width: 900px) {
+		display: none;
+	}
+}
+
+.productsSwiper .swiper-button-next {
+	width: 40px;
+	height: 40px;
+	right: 0;
+	@media screen and (max-width: 900px) {
+		display: none;
+	}
+}
+
+.productsSwiper .swiper-button-next:hover,
+.productsSwiper .swiper-button-prev:hover {
+	background: $base-color;
+	transition: 500ms;
+}
+
+.productsSwiper .swiper-button-next::after,
+.productsSwiper .swiper-button-prev::after {
+	font-size: 25px;
+	font-weight: 600;
+	color: transparent;
+	transition: 1s;
+}
+
+.productsSwiper:hover .swiper-button-next::after,
+.productsSwiper:hover .swiper-button-prev::after {
+	color: $base-color;
+	transition: 1s;
+}
+
+.productsSwiper .swiper-button-next:hover::after,
+.productsSwiper .swiper-button-prev:hover::after {
+	color: #fff;
+	transition: 500ms;
+}
+
+.productsSwiper .swiper-pagination {
+	display: none;
+	@media screen and (max-width: 900px) {
+		display: block;
+	}
+}

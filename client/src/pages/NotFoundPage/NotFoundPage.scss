@@ -1,0 +1,21 @@
+.NFP-box {
+	min-width: 300px;
+	@media screen and (max-width: 600px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.img-container {
+	@media screen and (max-width: 940px) {
+		display: flex;
+		justify-content: center;
+	}
+}
+.NFP-logo-img {
+	object-fit: cover;
+	@media screen and (max-width: 940px) {
+		width: 300px;
+	}
+}

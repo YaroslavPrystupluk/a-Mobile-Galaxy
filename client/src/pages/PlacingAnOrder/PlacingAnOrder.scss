@@ -1,0 +1,44 @@
+.scroll {
+	max-height: 400px;
+	scrollbar-color: #6969dd #e0e0e0;
+	scrollbar-width: thin;
+	overflow: hidden visible;
+}
+
+.scroll::-webkit-scrollbar {
+	width: 10px;
+}
+
+.scroll::-webkit-scrollbar-track {
+	background-color: rgb(221, 221, 221);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	box-shadow: inset 0 0 20px #a0a9af;
+}
+
+.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd {
+	margin-top: 9px;
+	align-items: flex-start;
+}
+
+.MuiButtonBase-root.MuiRadio-root {
+	padding: 0 9px 9px 9px;
+}
+
+.inputs-wrapper {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.cart-products {
+	min-width: 288px;
+	&--title {
+		color: #fff;
+		background: #a0a9af;
+		padding: 6px 0 6px 42px;
+	}
+}

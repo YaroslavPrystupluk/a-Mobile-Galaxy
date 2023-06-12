@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should create footer 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer
+        class="MuiBox-root css-13k4f75"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-933nd7-MuiContainer-root"
+        >
+          <div
+            align="center"
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-11 MuiGrid-grid-sm-12 MuiGrid-grid-md-14 css-1u9nkl1-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-oszuia-MuiGrid-root"
+            >
+              <img
+                align="center"
+                alt="logo"
+                class="MuiBox-root css-du3xi"
+                src="https://res.cloudinary.com/dsx708og4/image/upload/v1679135318/logo_b11xcve_zsxftk.png"
+              />
+              <div
+                class="MuiBox-root css-1sg7bn7"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-boffmo-MuiTypography-root"
+                >
+                  MOBILE GALAXY - український магазин європейська якість!
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-1qp7vdp-MuiGrid-root"
+            >
+              <ul
+                class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+                data-testid="list-menu"
+              >
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+                >
+                  Інформація
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  <a
+                    class="css-iodkl2"
+                    href="/about"
+                  >
+                    Про нас
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-1qp7vdp-MuiGrid-root"
+            >
+              <ul
+                class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+              >
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+                  font-weight="fontWeightBold"
+                >
+                  Покупцям
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  <a
+                    class="css-iodkl2"
+                    href="/guarantee"
+                  >
+                    Гарантія
+                  </a>
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  <a
+                    class="css-iodkl2"
+                    href="/paymentAndDelivery"
+                  >
+                    Оплата та доставка
+                  </a>
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  <a
+                    class="css-iodkl2"
+                    href="/exchangeAndReturn"
+                  >
+                    Обмін та повернення
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-1qp7vdp-MuiGrid-root"
+            >
+              <ul
+                class="MuiList-root MuiList-padding css-12bw5f8-MuiList-root"
+              >
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+                  font-weight="fontWeightBold"
+                >
+                  Контакти
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  Україна,
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  м.Київ,
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  вул.Козаків 20,
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+                >
+                  info@mobilegalaxy.com.ua
+                </li>
+              </ul>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-1e7f83a-MuiGrid-root"
+            >
+              <ul
+                class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+              >
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+                  font-weight="fontWeightBold"
+                >
+                  Стежте за нами
+                </li>
+                <li
+                  class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1fudzq6-MuiListItem-root"
+                >
+                  <a
+                    class="css-iodkl2"
+                    href="https://uk-ua.facebook.com/"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1th7kp6-MuiSvgIcon-root"
+                      data-testid="FacebookIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    class="css-iodkl2"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1th7kp6-MuiSvgIcon-root"
+                      data-testid="InstagramIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-120yagb-MuiTypography-root"
+          >
+            © 2023 Магазин мобільних телефонів «MOBILE GALAXY». Усі права захищенні.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer
+      class="MuiBox-root css-13k4f75"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-933nd7-MuiContainer-root"
+      >
+        <div
+          align="center"
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-11 MuiGrid-grid-sm-12 MuiGrid-grid-md-14 css-1u9nkl1-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item css-oszuia-MuiGrid-root"
+          >
+            <img
+              align="center"
+              alt="logo"
+              class="MuiBox-root css-du3xi"
+              src="https://res.cloudinary.com/dsx708og4/image/upload/v1679135318/logo_b11xcve_zsxftk.png"
+            />
+            <div
+              class="MuiBox-root css-1sg7bn7"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-boffmo-MuiTypography-root"
+              >
+                MOBILE GALAXY - український магазин європейська якість!
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item css-1qp7vdp-MuiGrid-root"
+          >
+            <ul
+              class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+              data-testid="list-menu"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+              >
+                Інформація
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                <a
+                  class="css-iodkl2"
+                  href="/about"
+                >
+                  Про нас
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item css-1qp7vdp-MuiGrid-root"
+          >
+            <ul
+              class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+                font-weight="fontWeightBold"
+              >
+                Покупцям
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                <a
+                  class="css-iodkl2"
+                  href="/guarantee"
+                >
+                  Гарантія
+                </a>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                <a
+                  class="css-iodkl2"
+                  href="/paymentAndDelivery"
+                >
+                  Оплата та доставка
+                </a>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                <a
+                  class="css-iodkl2"
+                  href="/exchangeAndReturn"
+                >
+                  Обмін та повернення
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item css-1qp7vdp-MuiGrid-root"
+          >
+            <ul
+              class="MuiList-root MuiList-padding css-12bw5f8-MuiList-root"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+                font-weight="fontWeightBold"
+              >
+                Контакти
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                Україна,
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                м.Київ,
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                вул.Козаків 20,
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p823my-MuiListItem-root"
+              >
+                info@mobilegalaxy.com.ua
+              </li>
+            </ul>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-1e7f83a-MuiGrid-root"
+          >
+            <ul
+              class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-5u1bv6-MuiListItem-root"
+                font-weight="fontWeightBold"
+              >
+                Стежте за нами
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1fudzq6-MuiListItem-root"
+              >
+                <a
+                  class="css-iodkl2"
+                  href="https://uk-ua.facebook.com/"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1th7kp6-MuiSvgIcon-root"
+                    data-testid="FacebookIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="css-iodkl2"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1th7kp6-MuiSvgIcon-root"
+                    data-testid="InstagramIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-120yagb-MuiTypography-root"
+        >
+          © 2023 Магазин мобільних телефонів «MOBILE GALAXY». Усі права захищенні.
+        </p>
+      </div>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

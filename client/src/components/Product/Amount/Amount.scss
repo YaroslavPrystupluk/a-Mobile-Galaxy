@@ -1,0 +1,34 @@
+@import "src/boilerplates/styles/mixins";
+@import "src/boilerplates/styles/variables";
+
+.inpt {
+	border: 1px solid $light-shadow-color;
+	display: grid;
+	grid-template-columns: 26% 48% 26%;
+	background-color: $light-shadow-color;
+	border-radius: 2px;
+	text-align: center;
+	width: 18%;
+	height: 9%;
+	&__button {
+		font-family: $base-font;
+		font-size: calcFluidFontSize(14, 19, 320, 1400);
+		padding: 0;
+	}
+	&__text {
+		font-family: $base-font;
+		font-weight: 600;
+		font-size: calcFluidFontSize(14, 19, 320, 1400);
+		margin: 0;
+		align-self: center;
+		background-color: $secondary-color;
+		border-radius: 2px;
+		padding: 6% 0;
+	}
+}
+
+button {
+	//add to global
+	border: none;
+	background: transparent;
+}
